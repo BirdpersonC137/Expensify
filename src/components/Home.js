@@ -1,9 +1,10 @@
-import React from 'react'
-
+import React from 'react';
+import ExpenseList from './ExpenseList';
+import ExpenseListFilters from './ExpenseListFilters'
 const Home = () => (
     <div>
-        <h1>Home Page</h1>
-        <p>This is from home page</p>
+        <ExpenseListFilters/>
+        <ExpenseList/>
     </div>
 )
 
