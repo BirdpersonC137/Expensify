@@ -33,7 +33,7 @@ test('expect setTextFilter action object to be generated', () => {
     });
 });
 
-test('expect setTextFilter action object to be generated with defaultw', () => {
+test('expect setTextFilter action object to be generated with default', () => {
     const action = setTextFilter()
     expect(action).toEqual({
         type: 'ADD_TEXT',
