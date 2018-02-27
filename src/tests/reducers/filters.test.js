@@ -41,5 +41,4 @@ test('should set startDate filter', ()=>{
 test('should set endDate filter', ()=>{
     const state = filtersReducer(undefined, {type: 'SET_END_DATE', endDate: 10000});
     expect(state.endDate).toBe(10000);
-    console.log(state);
 });
