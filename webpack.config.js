@@ -8,6 +8,7 @@ module.exports = {
     },
     module:{
         rules:[{
+            loader: 'style-loader!css-loader', test: /\.s?css$/,
             loader: 'babel-loader',
             test: /\.js$/,
             exclude: /node_modules/
